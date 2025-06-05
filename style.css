@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.tool-img {
+    height: 2.5rem;
+}
+
+.toolbar-options {
+    display: flex;
+    gap: 0.5rem;
+    background-color: #ffffff;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.3rem;
+    background-color: #f0f0f0;
+}
+
+.sticky {
+    height: 10rem;
+    width: 6rem;
+    position: absolute;
+    left: 40vw;
+    top: 40vh;
+}
+
+.nav {
+    border: 1px solid black;
+    height: 20%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.text-area {
+    height: 80%;
+    width: 100%;
+}
+
+.input-tag {
+    display: none;
+}
+
+.upload-img {
+    height: 80%;
+    width: 100%;
+}
+
+.cross {
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.tool {
+    background-color: #ddd;
+    padding: 0.5rem 1rem;
+    border: 2px solid darkmagenta;
+    /* color: */
+    border-radius: 4px;
+}
+
+.tool:hover {
+    background-color: rgba(150, 150, 150, 1);
+}
